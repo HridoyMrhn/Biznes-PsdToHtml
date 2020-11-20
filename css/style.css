@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap');
+
+/* Preset Css */
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: #808080;
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none !important;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+ol,ul,li{
+	padding: 0;
+	margin: 0;
+}
+img{
+	max-width: 100%;
+}
+
+
+/* Reusebale Component */
+.sec-title{
+	text-align: center;
+}
+.sec-title .subtitle{
+	font-size: 10px;
+	font-weight: 400;
+	color: #808080;
+}
+.sec-title h2.title{
+	color: #444;
+	font-size: 30px;
+	font-weight: 600;
+}
+.sec-title h2 span{
+	color: #aad37a;
+}
+.sec-title .title-border{
+	background: #aad37a;
+	height: 4px;
+	width: 40px;
+	position: relative;
+	margin: auto;
+}
+.title-border::after{
+	content: "";
+	position: absolute;
+	left: -10px;
+	right: -10px;
+	top: 50%;
+	transform: translateY(-50%);
+	background: #ddd;
+	height: 1px;
+	z-index: -1;
+}
+
+
+/* Header Section Start*/
+/* Topbar section */
+.topbar{
+	background: #343434;
+}
+.topbar-section{
+	display: flex;
+	justify-content: space-between;
+}
+.top-left ul,
+.top-right ul{}
+.top-left ul li,
+.top-right ul li{
+	font-size: 13px;
+	font-weight: 300;
+	padding: 15px 12px;
+}
+.top-left ul li i{
+	padding-right: 6px;
+}
+.top-right ul li a{
+	display: block;
+	color: #808080;
+}
+.top-right ul li:hover a{
+	color: #fff;
+	transition: .5s;
+}
+
+/* Navbar Section */
+.navbar-nav{}
+.navbar-nav .nav-item{
+	padding: 12px 5px;
+}
+.navbar-nav .nav-item .nav-link{
+	color: #444;
+	font-size: 16px;
+	text-transform: uppercase;
+	display: block;
+}
+.navbar-nav .nav-item:hover .nav-link, .navbar-nav .nav-item .active{
+	color: #aad37a;
+}
+/* Header Section End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
