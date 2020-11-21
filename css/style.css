@@ -49,6 +49,10 @@ img{
 .sec-title h2 span{
 	color: #aad37a;
 }
+.sec-title p{
+	font-size: 14px;
+	padding-top: 25px;
+}
 .sec-title .title-border{
 	background: #aad37a;
 	height: 4px;
@@ -236,7 +240,7 @@ img{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	margin-top: 25px;
+	padding-top: 25px;
 	padding-bottom: 25px;
 	padding-left: 50px;
 }
@@ -263,8 +267,50 @@ img{
 }
 /* About Section End */
 
+/* We-Do Section Start */
+.we-do{
+	margin-top: 40px;
+	background: #fafafa;
+	padding: 70px 0;
+}
+.we-do-title .sec-title{
+	text-align: left;
+}
+.do-service{
+	padding-top: 20px;
+}
+.do-service ion-icon{
+	font-size: 40px;
+	color: #444;
+	padding-bottom: 20px;
+}
+.do-service .do-title h3{
+	color: #444;
+	font-size: 18px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.do-service h3::after{
+	content: "";
+	position: absolute;
+	background: #808080;
+	height: 1px;
+	width: 30px;
+	left: 0;
+	bottom: 0;
+}
+.do-service .do-service p{
+	font-size: 14px;
+	color: #808080;
+	padding-top: 15px;
+}
 
+.do-img{}
+.do-img img{
+	max-width: 125%;
+}
 
+/* We-Do Section End */
 
 
 
