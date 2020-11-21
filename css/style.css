@@ -39,6 +39,7 @@ img{
 	font-size: 10px;
 	font-weight: 400;
 	color: #808080;
+	text-transform: uppercase;
 }
 .sec-title h2.title{
 	color: #444;
@@ -119,18 +120,20 @@ img{
 }
 .banner-item{
 	position: relative;
+	z-index: -5;
 }
 .banner-item img{
-	height: 90vh;
+	/* height: 90vh; */
 	width: 100%;
 }
 .overlay{
-	height: 90vh;
+	height: 100%;
 	width: 100%;
 	background: #000;
 	position: absolute;
 	top: 0;
 	opacity: .5;
+	padding: -50px 0;
 }
 .banner-text{
 	position: absolute;
@@ -171,7 +174,7 @@ img{
 	right: 0;
 	display: flex;
 	justify-content: center;
-	z-index: 50;
+	z-index: 10;
 }
 .h-bullet li{
 	background: #414141;
@@ -209,7 +212,56 @@ img{
 /* Banner Section End */
 
 
-
+/* About Section Start */
+.about-section{
+	margin-top: -100px;
+	z-index: 20;
+}
+.about-img {
+	background: #4caf50;
+	/* width: calc(100% - 40px); */
+}
+.about-img img{
+	width: 100%;
+	position: relative;
+	top: 40px;
+	left: 40px;
+}
+.about-main{
+	height: calc(100% + 40px);
+	position: relative;
+	padding-top: 100px;
+}
+.about-main .about-content{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 50px;
+}
+.about-content .sec-title{
+	text-align: left;
+}
+.about-text{	
+	padding: 35px 0;
+}
+.about-text p{
+	font-size: 14px;
+	font-weight: 400;
+}
+.about-text .about-btn{
+	padding-top: 35px;
+}
+.about-btn .h-btn{
+	color: #4caf50;
+	background: #fff;
+}
+.about-btn .h-btn:hover{
+	background: #4caf50;
+	color: #fff;
+}
+/* About Section End */
 
 
 
