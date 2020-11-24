@@ -9,272 +9,452 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header Section Start -->
-    <header class="header-section">
-        <div class="topbar">
-            <div class="container">
-                <div class="topbar-section">
-                    <div class="top-left">
-                        <ul class="d-flex">
-                            <li><i class="fas fa-home"></i>i12 Royal Street, California USA</li>
-                            <li><i class="fas fa-phone"></i>001-122-134-555</li>
-                            <li><i class="fas fa-envelope"></i>contact@domain.com</li>
+    <div class="wrapper">
+        <!-- Header Section Start -->
+        <header class="header-section">
+            <div class="topbar">
+                <div class="container">
+                    <div class="topbar-section">
+                        <div class="top-left">
+                            <ul class="d-flex">
+                                <li><i class="fas fa-home"></i>i12 Royal Street, California USA</li>
+                                <li><i class="fas fa-phone"></i>001-122-134-555</li>
+                                <li><i class="fas fa-envelope"></i>contact@domain.com</li>
+                            </ul>
+                        </div>
+                        <div class="top-right">
+                            <ul class="d-flex">
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-skype"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Topbar Section End -->
+
+            <!-- Navbar Section Start -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav justify-content-center w-100">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">shortcodes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">contact</a>
+                            </li>
                         </ul>
-                    </div>
-                    <div class="top-right">
-                        <ul class="d-flex">
-                            <li>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-skype"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </li>
-                        </ul>
+                        <form class="ml-auto">
+                            <fas class="fas fa-search"></fas>
+                        </form>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Topbar Section End -->
+            </nav>
+        </header>
+        <!-- Header Section Start -->
 
-        <!-- Navbar Section Start -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav justify-content-center w-100">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">demo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">shortcodes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
-                        </li>
-                    </ul>
-                    <form class="ml-auto">
-                        <fas class="fas fa-search"></fas>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- Header Section Start -->
-
-    <!-- Banner Section Start -->
-    <section class="banner-section">
-        <div id="our-slider" class="carousel slide" data-ride="carousel">
-            <ul class="carousel-indicators h-bullet">
-                <li data-target="#our-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#our-slider" data-slide-to="1"></li>
-                <li data-target="#our-slider" data-slide-to="2"></li>
-                <li data-target="#our-slider" data-slide-to="3"></li>
-            </ul>
-            
-            <div class="carousel-inner">
-                <div class="banner-item carousel-item active">
-                    <img src="images/banner.jpg" alt="">
-                    <div class="overlay"></div>
-                    <div class="banner-text">
-                        <h4>Everything you need to have in order to create a</h4>
-                        <h1>stunninag website</h1>
-                        <p>Live Composer is a front-end content builder plugin for WordPress with 30+ modules (and more
-                            to come) packed with functionality and styling options that allow countless variations to be
-                            made easily and without any coding.</p>
-                        <div class="slider-btn">
-                            <a href="#" class="h-btn">discover now</a>
-                            <a href="#" class="h-btn">contact us</a>
-                        </div>
-                    </div>
-                </div>               
-                <div class="banner-item carousel-item">
-                    <img src="images/banner.jpg" alt="">
-                    <div class="overlay"></div>
-                    <div class="banner-text">
-                        <h4>Everything you need to have in order to create a</h4>
-                        <h1>stunninag website</h1>
-                        <p>Live Composer is a front-end content builder plugin for WordPress with 30+ modules (and more
-                            to come) packed with functionality and styling options that allow countless variations to be
-                            made easily and without any coding.</p>
-                        <div class="slider-btn">
-                            <a href="#" class="h-btn">discover now</a>
-                            <a href="#" class="h-btn">contact us</a>
-                        </div>
-                    </div>
-                </div>               
-                <div class="banner-item carousel-item">
-                    <img src="images/banner.jpg" alt="">
-                    <div class="overlay"></div>
-                    <div class="banner-text">
-                        <h4>Everything you need to have in order to create a</h4>
-                        <h1>stunninag website</h1>
-                        <p>Live Composer is a front-end content builder plugin for WordPress with 30+ modules (and more
-                            to come) packed with functionality and styling options that allow countless variations to be
-                            made easily and without any coding.</p>
-                        <div class="slider-btn">
-                            <a href="#" class="h-btn">discover now</a>
-                            <a href="#" class="h-btn">contact us</a>
-                        </div>
-                    </div>
-                </div>                
-                <div class="banner-item carousel-item">
-                    <img src="images/banner.jpg" alt="">
-                    <div class="overlay"></div>
-                    <div class="banner-text">
-                        <h4>Everything you need to have in order to create a</h4>
-                        <h1>stunninag website</h1>
-                        <p>Live Composer is a front-end content builder plugin for WordPress with 30+ modules (and more
-                            to come) packed with functionality and styling options that allow countless variations to be
-                            made easily and without any coding.</p>
-                        <div class="slider-btn">
-                            <a href="#" class="h-btn">discover now</a>
-                            <a href="#" class="h-btn">contact us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Banner Section Start -->
+        <section class="banner-section">
+            <div id="our-slider" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators h-bullet">
+                    <li data-target="#our-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#our-slider" data-slide-to="1"></li>
+                    <li data-target="#our-slider" data-slide-to="2"></li>
+                    <li data-target="#our-slider" data-slide-to="3"></li>
+                </ul>
                 
-            <div class="slider-arrow">
-                <div class="slider-left"><a href="#our-slider" data-slide="prev">&larr;</a></div>
-                <div class="slider-right"><a href="#our-slider" data-slide="next">&rarr;</a></div>
+                <div class="carousel-inner">
+                    <div class="banner-item carousel-item active">
+                        <img src="images/banner.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="banner-text">
+                            <h4>Everything you need to have in order to create a</h4>
+                            <h1>stunninag website</h1>
+                            <p>Live Composer is a front-end content builder plugin for WordPress with 30+ modules (and more
+                                to come) packed with functionality and styling options that allow countless variations to be
+                                made easily and without any coding.</p>
+                            <div class="slider-btn">
+                                <a href="#" class="h-btn">discover now</a>
+                                <a href="#" class="h-btn">contact us</a>
+                            </div>
+                        </div>
+                    </div>               
+                    <div class="banner-item carousel-item">
+                        <img src="images/banner.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="banner-text">
+                            <h4>Everything you need to have in order to create a</h4>
+                            <h1>stunninag website</h1>
+                            <p>Live Composer is a front-end content builder plugin for WordPress with 30+ modules (and more
+                                to come) packed with functionality and styling options that allow countless variations to be
+                                made easily and without any coding.</p>
+                            <div class="slider-btn">
+                                <a href="#" class="h-btn">discover now</a>
+                                <a href="#" class="h-btn">contact us</a>
+                            </div>
+                        </div>
+                    </div>               
+                    <div class="banner-item carousel-item">
+                        <img src="images/banner.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="banner-text">
+                            <h4>Everything you need to have in order to create a</h4>
+                            <h1>stunninag website</h1>
+                            <p>Live Composer is a front-end content builder plugin for WordPress with 30+ modules (and more
+                                to come) packed with functionality and styling options that allow countless variations to be
+                                made easily and without any coding.</p>
+                            <div class="slider-btn">
+                                <a href="#" class="h-btn">discover now</a>
+                                <a href="#" class="h-btn">contact us</a>
+                            </div>
+                        </div>
+                    </div>                
+                    <div class="banner-item carousel-item">
+                        <img src="images/banner.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="banner-text">
+                            <h4>Everything you need to have in order to create a</h4>
+                            <h1>stunninag website</h1>
+                            <p>Live Composer is a front-end content builder plugin for WordPress with 30+ modules (and more
+                                to come) packed with functionality and styling options that allow countless variations to be
+                                made easily and without any coding.</p>
+                            <div class="slider-btn">
+                                <a href="#" class="h-btn">discover now</a>
+                                <a href="#" class="h-btn">contact us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="slider-arrow">
+                    <div class="slider-left"><a href="#our-slider" data-slide="prev">&larr;</a></div>
+                    <div class="slider-right"><a href="#our-slider" data-slide="next">&rarr;</a></div>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- Banner Section End -->
+        </section>
+        <!-- Banner Section End -->
 
-    <!-- About Section Start -->
-    <section class="about-section">
+        <!-- About Section Start -->
+        <section class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="about-img">
+                            <img src="images/abt-img.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="about-main">
+                            <div class="about-content">
+                                <div class="sec-title">
+                                    <div class="subtitle">Proudly Displaying Projects</div>
+                                    <h2 class="title">Recent <span>Work</span></h2>
+                                </div>
+                                <div class="about-text">
+                                    <p>Lorem ips illud nonummy, novum tation et his. Royal scriptaset patrioque scribentur, at pro fugit erts verter emmolestiae, sed et vivendo ali Lorem ipsum eillud nonu here mmy, novum tation et scripta patrioque scriben tur Quisque ligulas ipsum, euismod atras vulputate iltricies. Coordinates for abs po oordi nates for abs positioning the closest position.</p>
+                                    <div class="about-btn">
+                                        <a href="#" class="h-btn">Learn more</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- We-Do Section Start -->
+        <section class="we-do">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="about-img">
-                        <img src="images/abt-img.jpg" alt="">
+                    <div class="col-lg-7">
+                        <div class="we-do-title">
+                            <div class="sec-title">
+                                <div class="subtitle">aking Awesome Designs</div>
+                                <h2 class="title">What We <span>Do</span></h2>
+                                <p>Coordinates for abs po oordinates for abs positioning the closest positioned Coordinates for abs positioning the closest positioned parent box of the positioned ting that ments.</p>
+                            </div> 
+                        </div>
+
+                        <div class="row py-5">
+                            <div class="col-lg-6">
+                                <div class="do-service">
+                                    <div class="do-icon">
+                                        <ion-icon name="bicycle-outline"></ion-icon>
+                                    </div>
+                                    <div class="do-title">
+                                        <h3>Design & Development</h3>
+                                        <p>Lorem ipsum dolor sit amet sea te alii viris mneo squer dipereum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="do-service">
+                                    <div class="do-icon">
+                                        <ion-icon name="globe-outline"></ion-icon>
+                                    </div>
+                                    <div class="do-title">
+                                        <h3>Design & Development</h3>
+                                        <p>Lorem ipsum dolor sit amet sea te alii viris mneo squer dipereum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="do-service">
+                                    <div class="do-icon">
+                                        <ion-icon name="trending-up-outline"></ion-icon>
+                                    </div>
+                                    <div class="do-title">
+                                        <h3>Design & Development</h3>
+                                        <p>Lorem ipsum dolor sit amet sea te alii viris mneo squer dipereum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="do-service">
+                                    <div class="do-icon">
+                                        <ion-icon name="checkmark-done-outline"></ion-icon>
+                                    </div>
+                                    <div class="do-title">
+                                        <h3>Design & Development</h3>
+                                        <p>Lorem ipsum dolor sit amet sea te alii viris mneo squer dipereum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-lg-5">
+                        <div class="do-img">
+                            <img src="images/do.png" alt="">
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </section>
+        <!-- We-Do Section End -->
+        
+        <!-- Work Section Start -->
+        <section class="work-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="work-title">
+                        <div class="sec-title">
+                            <div class="subtitle">Proudly Displaying Projects</div>
+                            <h2 class="title">Recent <span>Work</span></h2>
+                            <div class="title-border"></div>
+                        </div> 
                     </div>
                 </div>
 
-                <div class="col-lg-7">
-                    <div class="about-main">
-                        <div class="about-content">
-                            <div class="sec-title">
-                                <div class="subtitle">Proudly Displaying Projects</div>
-                                <h2 class="title">Recent <span>Work</span></h2>
-                            </div>
-                            <div class="about-text">
-                                <p>Lorem ips illud nonummy, novum tation et his. Royal scriptaset patrioque scribentur, at pro fugit erts verter emmolestiae, sed et vivendo ali Lorem ipsum eillud nonu here mmy, novum tation et scripta patrioque scriben tur Quisque ligulas ipsum, euismod atras vulputate iltricies. Coordinates for abs po oordi nates for abs positioning the closest position.</p>
-                                <div class="about-btn">
-                                    <a href="#" class="h-btn">Learn more</a>
+                <div class="row">
+                    <div class="work-nav">
+                        <ul class="d-flex justify-content-center">
+                            <li class="filter" data-filter="all">All</li>
+                            <li class="filter" data-filter=".web-design">Website Design</li>
+                            <li class="filter" data-filter=".grapics">Graphic Design</li>
+                            <li class="filter" data-filter=".branding">Branding</li>
+                            <li class="filter" data-filter=".web-dev">Web Development</li>
+                            <li class="filter" data-filter=".photography">Photography</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="row gallery">
+                    <div class="col-lg-4 p-work mix web-design branding">
+                        <div class="work-img">
+                            <img src="images/post1.jpg" alt="">
+                            <div class="hover-overlay">
+                                <span><img src="images/hover-icon.png" alt=""></span>
+                                <div class="social">
+                                    <ul class="">
+                                        <li>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 p-work mix grapics photography">
+                        <div class="work-img">
+                            <img src="images/post2.jpg" alt="">
+                            <div class="hover-overlay">
+                                <span><img src="images/hover-icon.png" alt=""></span>
+                                <div class="social">
+                                    <ul class="">
+                                        <li>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 p-work mix branding web-dev">
+                        <div class="work-img">
+                            <img src="images/post3.jpg" alt="">
+                            <div class="hover-overlay">
+                                <span><img src="images/hover-icon.png" alt=""></span>
+                                <div class="social">
+                                    <ul class="">
+                                        <li>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 p-work mix web-dev grapics">
+                        <div class="work-img">
+                            <img src="images/post4.jpg" alt="">
+                            <div class="hover-overlay">
+                                <span><img src="images/hover-icon.png" alt=""></span>
+                                <div class="social">
+                                    <ul class="">
+                                        <li>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 p-work mix photography web-design">
+                        <div class="work-img">
+                            <img src="images/post5.jpg" alt="">
+                            <div class="hover-overlay">
+                                <span><img src="images/hover-icon.png" alt=""></span>
+                                <div class="social">
+                                    <ul class="">
+                                        <li>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 p-work mix grapics branding web-dev">
+                        <div class="work-img">
+                            <img src="images/post6.jpg" alt="">
+                            <div class="hover-overlay">
+                                <span><img src="images/hover-icon.png" alt=""></span>
+                                <div class="social">
+                                    <ul class="">
+                                        <li>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- About Section End -->
+        </section>
+        <!-- Work Section End -->
 
-    <!-- We-Do Section Start -->
-    <section class="we-do">
-       <div class="container">
-           <div class="row">
-                <div class="col-lg-7">
-                    <div class="we-do-title">
-                        <div class="sec-title">
-                            <div class="subtitle">aking Awesome Designs</div>
-                            <h2 class="title">What We <span>Do</span></h2>
-                            <p>Coordinates for abs po oordinates for abs positioning the closest positioned Coordinates for abs positioning the closest positioned parent box of the positioned ting that ments.</p>
-                        </div> 
-                    </div>
 
-                    <div class="row py-5">
-                        <div class="col-lg-6">
-                            <div class="do-service">
-                                <div class="do-icon">
-                                    <ion-icon name="bicycle-outline"></ion-icon>
-                                </div>
-                                <div class="do-title">
-                                    <h3>Design & Development</h3>
-                                    <p>Lorem ipsum dolor sit amet sea te alii viris mneo squer dipereum.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="do-service">
-                                <div class="do-icon">
-                                    <ion-icon name="globe-outline"></ion-icon>
-                                </div>
-                                <div class="do-title">
-                                    <h3>Design & Development</h3>
-                                    <p>Lorem ipsum dolor sit amet sea te alii viris mneo squer dipereum.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="do-service">
-                                <div class="do-icon">
-                                    <ion-icon name="trending-up-outline"></ion-icon>
-                                </div>
-                                <div class="do-title">
-                                    <h3>Design & Development</h3>
-                                    <p>Lorem ipsum dolor sit amet sea te alii viris mneo squer dipereum.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="do-service">
-                                <div class="do-icon">
-                                    <ion-icon name="checkmark-done-outline"></ion-icon>
-                                </div>
-                                <div class="do-title">
-                                    <h3>Design & Development</h3>
-                                    <p>Lorem ipsum dolor sit amet sea te alii viris mneo squer dipereum.</p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="col-lg-6"></div>
-                    </div>
-                </div>
-        
-                <div class="col-lg-5">
-                    <div class="do-img">
-                        <img src="images/do.png" alt="">
-                    </div>
-                </div>
-           </div>
-       </div>
-    </section>
-    <!-- We-Do Section End -->
-    
- 
+
+    </div>
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
     <script src="js/main.js"></script>
 
     <!-- 

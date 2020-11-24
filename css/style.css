@@ -31,6 +31,9 @@ img{
 	border-radius: 40px;
 	display: inline-block;
 }
+.wrapper{
+	overflow: hidden;
+}
 /* Reusebale Component */
 .sec-title{
 	text-align: center;
@@ -271,7 +274,7 @@ img{
 .we-do{
 	margin-top: 40px;
 	background: #fafafa;
-	padding: 70px 0;
+	padding-top: 70px;
 }
 .we-do-title .sec-title{
 	text-align: left;
@@ -307,12 +310,101 @@ img{
 
 .do-img{}
 .do-img img{
-	max-width: 125%;
+	max-width: 130%;
+	margin-bottom: -145px;
 }
 
 /* We-Do Section End */
 
+/* Work Section Start */
+.work-section{}
+.work-nav{
+	padding: 80px 0 30px;
+}
+.work-nav ul{}
+.work-nav ul li{
+	padding: 8px;
+	position: relative;
+}
+.work-nav ul li::after {
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 13px;
+	background: #444444;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.work-nav ul li:last-child::after{
+	width: 0;
+}
+.work-nav ul li.active,
+.work-nav ul li.mixitup-control-active {
+	color: #4caf50;
+}
 
+.work-img{
+	position: relative;
+}
+.work-img img{
+	max-width: 100%;
+	position: relative;
+}
+.hover-overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(76, 173, 79, .8);
+	transform: scale(0);
+	transition: 1s;
+	/* width: 0; */
+}
+.hover-overlay span{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.work-img:hover .hover-overlay{
+	transform: scale(1);
+	/* width: 100%; */
+}
+.p-work{
+	padding: 2px;
+}
+.social{}
+.social ul{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+.social ul li {
+	padding: 5px 15px;
+}
+.social ul li a{
+	color: #fff;
+	background: red;
+	font-size: 25px;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	border-radius: 50%;
+	display: block;
+	text-align: center;
+	transition: all .5s ease-in-out;
+	transform: rotate(0) scale(1);
+}
+.social ul li:hover a{
+	color: red;
+	background: #fff;
+	transform: rotate(360deg) scale(1.2);
+}
 
 
 
