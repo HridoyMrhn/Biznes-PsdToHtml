@@ -11,3 +11,4 @@ var carousel = new bootstrap.Carousel(myCarousel, {
 var containerEl = document.querySelector('.gallery');
 var mixer = mixitup(containerEl);
 
+// Fancybox - For Fancubox

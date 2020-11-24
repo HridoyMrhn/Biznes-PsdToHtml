@@ -325,6 +325,7 @@ img{
 .work-nav ul li{
 	padding: 8px;
 	position: relative;
+	cursor: pointer;
 }
 .work-nav ul li::after {
 	content: "";
@@ -376,7 +377,9 @@ img{
 .p-work{
 	padding: 2px;
 }
-.social{}
+.d-no{
+	display: none;
+}
 .social ul{
 	position: absolute;
 	display: inline-block;
