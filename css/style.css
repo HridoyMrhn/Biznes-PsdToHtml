@@ -360,7 +360,7 @@ img{
 	bottom: 0;
 	background: rgba(76, 173, 79, .8);
 	transform: scale(0);
-	transition: 1s;
+	transition: .5s;
 	/* width: 0; */
 }
 .hover-overlay span{
@@ -408,8 +408,86 @@ img{
 	background: #fff;
 	transform: rotate(360deg) scale(1.2);
 }
+/* Work Section End */
 
 
+/* Fedatures Section Start*/
+.features-list{
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+}
+.features-list ul{
+	text-align: center;
+}
+.features-list ul li{
+	flex-grow: 1;
+}
+.features-list ul li a{
+	font-size: 18px;
+	font-weight: 500;
+	display: block;
+	color: #444444;
+	padding: 30px;
+}
+.features-list ul li a i{
+	margin-right: 10px;
+}
+.features-list ul li a.active{
+	background: #f7f7f7;
+	border-bottom: 3px solid #8bc34a;
+}
+.tab-bg{
+	background: #f7f7f7;
+}
+.tab-content {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.tab-text h3{
+	font-size: 30px;
+	font-weight: 500;
+	padding-bottom: 30px;
+	color: #444;
+}
+.tab-text p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #808080;
+	padding-bottom: 15px;
+}
+/* Fedatures Section End*/
+
+
+/* Discover Section Start*/
+.discover{
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/banner.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.discover-text{
+	padding: 120px 0;
+	text-align: center;
+	position: relative;
+}
+.discover-text h2{
+	color: #fdfdfd;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.discover-text a.h-btn {
+    display: block;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+	transform: translate(-50%);
+	padding: 25px 120px;
+}
+/* Discover Section End*/
+
+
+/* Team-Member Section Start*/
+
+/* Team-Member Section End*/
 
 
 
