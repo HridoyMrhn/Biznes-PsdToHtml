@@ -9,6 +9,10 @@ var carousel = new bootstrap.Carousel(myCarousel, {
 
 // Mixitup - For Filtering
 var containerEl = document.querySelector('.gallery');
-var mixer = mixitup(containerEl);
-
-// Fancybox - For Fancubox
+/* var mixer = mixitup(containerEl);
+var containerEl = document.querySelector('.gallery'); */
+var mixer = mixitup(containerEl, {  //For Conflict from Tab Pane
+  selectors: {
+    control: '[mix-control]', //For Conflict from Tab Pane
+  }
+});

@@ -31,6 +31,11 @@ img{
 	border-radius: 40px;
 	display: inline-block;
 }
+.h-btn:hover{
+	color: #4caf50;
+	background: #fff;
+	border: 1px solid #4caf50;
+}
 .wrapper{
 	overflow: hidden;
 }
@@ -165,11 +170,11 @@ img{
 	line-height: 1.6;
 	margin-bottom: 40px;
 }
-.slider-btn{}
-.slider-btn a{
+
+.slider-btn .h-btn{
 	margin: 0 15px;
 }
-.slider-btn a:hover{
+.slider-btn .h-btn:hover{
 	background: #fff;
 	color: #4caf50;
 }
@@ -477,16 +482,109 @@ img{
 .discover-text a.h-btn {
     display: block;
     position: absolute;
-    bottom: -35px;
+    bottom: 0;
     left: 50%;
-	transform: translate(-50%);
+	transform: translate(-50%, 50%);
 	padding: 25px 120px;
+	border-radius: 50%;
 }
 /* Discover Section End*/
 
 
 /* Team-Member Section Start*/
+.team-member{
+	margin-top: 100px;
+	overflow: hidden;
+	margin-bottom: 200px;
+}
+.team-member .sec-title{
+	padding-bottom: 80px;
+}
 
+.team-img {
+	position: relative;
+	text-align: center;
+	color: #fff;
+}
+.team-img{
+	width: 100%;
+}
+.team-hover {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .9);
+	transition: 1s;
+}
+.team-hover-text {
+	position: absolute;
+	top: 45%;
+	transition: 1s;
+	/* visibility: hidden;
+	opacity: 0; */
+}
+.team-hover-text h3{
+	font-size: 21px;
+}
+.team-hover-text h5{
+	font-size: 13px;
+	padding-bottom: 25px;
+}
+.team-hover-text p{
+	font-size: 14px;
+}
+.team-hover-social {
+	background: #4CAF50;
+	position: absolute;
+	left: 0;
+	bottom: -70px;
+	right: 0;
+	transition: 1s;
+	/* visibility: hidden;
+	opacity: 0; */
+}
+.team-hover-social ul.social-icon{
+	display: flex;
+	justify-content: center;
+}
+ul.social-icon li{
+	padding: 20px 10px;
+}
+ul.social-icon li a{
+	color: #fff;
+	background: red;
+	font-size: 18px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	display: block;
+	transition: all .5s ease-in-out;
+	transform: rotate(0);
+}
+ul.social-icon li:hover a{
+	color: red;
+	background: #fff;
+	transform: rotate(360deg) scale(1.2);
+}
+
+.team-img:hover .team-hover{
+	top: 0;
+}
+/* .team-img:hover .team-hover-text,
+.team-img:hover .team-hover-social{
+	bottom: 0;
+	visibility: visible;
+	opacity: 1;
+} */
+.team-img:hover .team-hover-text{
+	transform: translateY(-45%);
+}
+.team-img:hover .team-hover-social{
+	bottom: 0;
+}
 /* Team-Member Section End*/
 
 
