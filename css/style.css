@@ -640,10 +640,172 @@ ul.social-icon li:hover a{
 /* Blog Section End*/
 
 
+/* Brand Section Start */
+/* Owl Carousel Slider Css*/
+.owl-carousel .owl-item{
+	text-align: center;
+}
+.owl-carousel .owl-item img{
+	display: inline-block;
+	width: auto;
+}
+/* Brand Section End */
 
 
+/* Footer Section Start */
+.footer-section {
 
+}
+.footer-top{
+	background: #262626;
+	position: relative;
+	z-index: 50;
+}
+.widghet-outside-bg{
+	position: relative;
+	-z-index: 50;
+}
+.widghet-outside-bg::before {
+	content: "";
+	position: absolute;
+	background: #303030;
+	top: 0;
+	left: -10000px;
+	bottom: 0;
+	right: 0;
+	z-index: -50;
+}
+.footer-top .widghet{
+	padding-top: 100px;
+	color: #6b6b6b;
+}
+.widghet h3{
+	padding-bottom: 30px;
+	margin: 0;
+	font-size: 18px;
+	font-weight: 500;
+}
+.widghet p {
+	font-size: 14px;
+	font-weight: 400;
+	padding-bottom: 14px;
+	color: #6b6b6b;
+}
+.footer-top .widghet-logo{
+	padding-top: 130px;
+	text-align: center;
+}
+.footer-logo{
+	padding-bottom: 30px;
+}
+/* for social */
+.widghet-social ul li{
+	padding: 10px;
+}
+.widghet-social ul li a{
+	color: #6b6b6b;
+	display: block;
+	font-size: 16px;
+}
+.widghet-social ul li:hover a{
+	color: #fff;
+	transition: .5s;
+}
+.widghet address{
+	font-size: 14px;
+}
+/* for tweet feed */
+ul.tweet-feed li{
+	display: flex;
+	padding-bottom: 30px;
+}
+ul.tweet-feed li i{
+	padding: 5px 10px 0 0;
+	font-size: 14px;
+}
+ul.tweet-feed li a{
+	display: block; 
+	color: #6b6b6b;
+}
+ul.tweet-feed li a h5{
+	font-size: 14px;
+	margin: 0;
+}
+ul.tweet-feed li a span{
+	font-size: 10px;
+}
+.subscribe{
+	position: relative;
+}
+.subscribe input {
+	border: 1px solid #575757;
+	background: transparent;
+	padding: 10px 45px 10px 15px;
+	font-size: 13px;
+	color: #4a4a4a;
+	border-radius: 20px;
+	width: 100%;
+	height: 35px;
+}
+.subscribe-btn{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
 
+}
+.subscribe-btn input {
+	width: 40px;
+	font-size: 0;
+	border: 0;
+}
+.subscribe::after {
+	content: "\f3fe";
+	position: absolute;
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 700;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 18px;
+	pointer-events: none;
+}
+.footer-bottom {
+	background: #1c1c1c;
+	height: 120px;
+}
+.copyright{
+	text-align: center;
+	color: #666666;
+	padding: 50px 0;
+	font-size: 13px;
+}
+.copyright a{
+	color: #74a240;
+	font-size: 20px;
+}
+.footer-icon{
+	position: relative;
+}
+.footer-icon .top {
+	position: absolute;
+	right: 50px;
+	bottom: 20px;
+	background: #212121;
+	position: fixed;
+	width: 60px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 5px;
+	text-align: center;
+	z-index: 100;
+}
+.top a{
+	color: #fff;
+	font-size: 48px;
+	font-weight: 700;
+}
+/* Footer Section End */
 
 
 
