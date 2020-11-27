@@ -30,6 +30,7 @@ img{
 	border: 1px solid #aeaeae;
 	border-radius: 40px;
 	display: inline-block;
+	transition: .5s;
 }
 .h-btn:hover{
 	color: #4caf50;
@@ -495,7 +496,6 @@ img{
 .team-member{
 	margin-top: 100px;
 	overflow: hidden;
-	margin-bottom: 200px;
 }
 .team-member .sec-title{
 	padding-bottom: 80px;
@@ -506,9 +506,6 @@ img{
 	text-align: center;
 	color: #fff;
 }
-.team-img{
-	width: 100%;
-}
 .team-hover {
 	position: absolute;
 	left: 0;
@@ -516,12 +513,12 @@ img{
 	right: 0;
 	bottom: 0;
 	background: rgba(0, 0, 0, .9);
-	transition: 1s;
+	transition: .5s;
 }
 .team-hover-text {
 	position: absolute;
 	top: 45%;
-	transition: 1s;
+	transition: .5s;
 	/* visibility: hidden;
 	opacity: 0; */
 }
@@ -539,9 +536,9 @@ img{
 	background: #4CAF50;
 	position: absolute;
 	left: 0;
-	bottom: -70px;
+	bottom: -72px;
 	right: 0;
-	transition: 1s;
+	transition: .5s;
 	/* visibility: hidden;
 	opacity: 0; */
 }
@@ -588,7 +585,59 @@ ul.social-icon li:hover a{
 /* Team-Member Section End*/
 
 
+/* Blog Section Start*/
+.blog-section{
+	margin-top: 70px;
+}
+.blog-section .sec-title{
+	margin-bottom: 80px;
+}
+.blog-item {
+	margin-bottom: 30px;
+}
+.item-block{
+	position: relative;
+}
+.item-block .blog-date {
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	background: #8bc34a;
+	padding: 15px;
+	color: #fff;
+	box-shadow: 10px 10px #6f9c3b;
+}
+.blog-date .date{
+	font-size: 24px;
+	font-weight: 500;
+}
+.blog-date{
+	font-size: 13px;
+}
+.blog-content{
+	padding-top: 35px;
+}
+.blog-content h3{
+	font-size: 20px;
+	color: #444;
+}
+.blog-content span{
+	display: inline-block;
+	font-size: 12px;
+}
+.blog-content span a{
+	color: #8bc34a;
+}
+.blog-content p{
+	padding-top: 25px;
+	font-size: 14px;
+}
 
+.blog-right .blog-content {
+	background: #e6e6e6;
+	padding: 10px 15px;
+}
+/* Blog Section End*/
 
 
 
